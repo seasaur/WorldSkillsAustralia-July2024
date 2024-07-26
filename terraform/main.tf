@@ -13,7 +13,7 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket         = "<S3_BUCKET_NAME>"
+    bucket         = "seasea"
     key            = "terraform/terraform.tfstate"
     region         = "us-east-1"
     encrypt        = true
