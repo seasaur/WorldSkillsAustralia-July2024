@@ -17,6 +17,6 @@ terraform {
     key            = "terraform/terraform.tfstate"
     region         = "us-east-1"
     encrypt        = true
-    dynamodb_table = "<DYNAMODB_TABLE_NAME>"
+    dynamodb_table = "seasea"
   }
 }
